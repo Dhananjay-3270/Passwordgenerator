@@ -1,0 +1,46 @@
+.container{
+  background-color: #24232b;
+padding: 24px;
+}
+.header{
+display: flex;
+justify-content: space-between;
+color: aliceblue;
+font-size: 20px;
+font-weight: 700;
+padding-bottom: 20px;
+}
+*{
+font-family: Arial, Helvetica, sans-serif;
+}
+button{
+  background-color: #2a8b8b;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: 700;
+  cursor: pointer;
+}
+.charln{
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+.charln span{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.checkboxes{
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 16px;
+  font-weight: 700;
+}
+.generatebtn{
+  width: 100%;
+  font-size: 20px;
+}
